@@ -11,8 +11,8 @@ description: >
   即使用户没有明确说"微信"，只要涉及公众号内容获取或提取，也应触发此 skill。
   Triggers: 搜索公众号, 微信文章, 读这篇公众号, 抓取公众号, wechat article, mp.weixin.qq.com, 公众号内容, 微信链接
 version: 1.0.0
-homepage: https://github.com/YeXingFeng1986/wechat-articles
-author: 夜星枫 / @YeXingFeng1986
+homepage: https://github.com/johan-oilman/wechat-articles
+author: 油太人 / @johan-oilman
 license: MIT
 metadata:
   clawdbot:
@@ -130,4 +130,4 @@ playwright install chromium --with-deps
 - auto 模式优先尝试 simple，失败后自动切换 playwright；若两者均失败则抛出异常
 - Playwright 首次运行需安装 Chromium（约几分钟）
 
-欢迎反馈 & PR！GitHub: https://github.com/YeXingFeng1986/wechat-articles
+欢迎反馈 & PR！GitHub: https://github.com/johan-oilman/wechat-articles
