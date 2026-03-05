@@ -10,7 +10,7 @@ description: >
   (5) 需要从微信生态获取资讯、报告、行业信息
   即使用户没有明确说"微信"，只要涉及公众号内容获取或提取，也应触发此 skill。
   Triggers: 搜索公众号, 微信文章, 读这篇公众号, 抓取公众号, wechat article, mp.weixin.qq.com, 公众号内容, 微信链接
-version: 2.0.0
+version: 1.0.0
 homepage: https://github.com/YeXingFeng1986/wechat-articles
 author: 夜星枫 / @YeXingFeng1986
 license: MIT
@@ -30,7 +30,7 @@ metadata:
         - playwright install chromium --with-deps
 ---
 
-# 微信公众号文章搜索与读取 (v2.0)
+# 微信公众号文章搜索与读取 (v1.0)
 
 搜索和读取微信公众号文章的完整工具，支持 **simple**（快速）和 **playwright**（稳定）双模式 + **auto** 自动切换。
 
